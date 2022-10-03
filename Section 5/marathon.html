@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><strong>Race Registration!</strong></h1>
+    <form action="https://www.google.com">
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first"required>
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" required>
+        </p>
+        <p>
+            Select a Race:
+        </p>
+        <p>
+            <div>
+                <input type="radio" name="race" id="fun" value="fun">
+                <label for="fun">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="half" value="half">
+                <label for="half">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="full" value="full">
+                <label for="full">Full Marathon</label>
+            </div>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </p>
+        <p>
+            <label for="age">Select Age Group: </label>
+            <select name="age" id="age">
+                <option value="18">Under 18</option>
+                <option value="30">19-30</option>
+                <option value="45">31-45</option>
+                <option value="100">46 or older</option>
+            </select>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
