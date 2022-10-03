@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet Demo</title>
+</head>
+<body>
+    <!-- Child: main>section>h1 -->
+    <main>
+        <section>
+            <h1></h1>
+        </section>
+    </main>
+
+    <!-- Sibling: h1+h2+h3 -->
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+
+    <!-- Climb Up: div+div>p>span+em^bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    <!-- Multiplication: ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- Item numbering: ul>li.item$*5 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+
+    <!-- Item numbering: ul>li.Cool_thing_$*5 -->
+    <ul>
+        <li class="Cool_thing_1"></li>
+        <li class="Cool_thing_2"></li>
+        <li class="Cool_thing_3"></li>
+        <li class="Cool_thing_4"></li>
+        <li class="Cool_thing_5"></li>
+    </ul>
+</body>
+</html>
+
+<!-- Full list at docs.emmet.io/cheat-sheet/ -->
