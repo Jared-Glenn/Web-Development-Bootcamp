@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #e76f51;
+}
+
+h1 {
+    background-color: pink;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#one {
+    background-color: #606c38;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 2px;
+}
+
+#two {
+    background-color: #283618;
+    border-color: #faedcd;
+    border-width: 12px;
+    border-style: groove;
+    border-left-color: #03045e;
+    border-left-width: 20px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+/* border width style color */
+/* circle is border-radius 50% */
+
+#three {
+    background-color: #bc6c25;
+    border: 10px dotted indigo;
+    border-right-style: solid;
+    border-radius: 5% 20% 5% 50%;
+    padding: 30px
+}
+
+button {
+    padding: 5px 10px;
+}
