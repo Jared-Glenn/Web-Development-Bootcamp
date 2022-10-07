@@ -1,0 +1,48 @@
+section.first {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.2;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    position: static;
+}
+
+#middle {
+    background-color: cadetblue;
+}
+
+section.relative #middle {
+    position: relative;
+    top: 100px;
+}
+
+section.static #middle {
+    position: static;
+    top: 100px;
+}
+
+section.fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
